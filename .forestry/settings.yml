@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: superadmin
 webhook_url: 
 sections:
 - type: heading
@@ -13,11 +13,9 @@ sections:
 - type: document
   path: doc
   label: "\U0001F4BB Doc"
-  match: "**/*"
 - type: document
   path: developer
   label: "\U0001F468\U0001F3FB‍\U0001F680 Developer"
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
