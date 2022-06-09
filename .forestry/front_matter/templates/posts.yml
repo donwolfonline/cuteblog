@@ -1,4 +1,22 @@
 ---
 label: Posts
 hide_body: true
-fields: []
+fields:
+- name: textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: textarea
+- name: upload
+  type: file
+  config:
+    maxSize: 64
+  label: upload
+- name: multi-uploads
+  type: image_gallery
+  config: {}
+  label: Multi-uploads
