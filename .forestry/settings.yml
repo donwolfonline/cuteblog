@@ -5,12 +5,12 @@ admin_path: superadmin
 webhook_url: 
 sections:
 - type: directory
-  path: blogpost
-  label: "\U0001F680 Blog"
+  path: docsdev
+  label: "\U0001F4BB Doc"
   create: all
   match: "**/*"
   templates:
-  - blog-posts
+  - other-contents
 - type: heading
   label: Open Menu
 - type: directory
@@ -20,6 +20,13 @@ sections:
   match: "**/*"
   templates:
   - blog-posts
+- type: directory
+  path: blogpost
+  label: "\U0001F680 Blog"
+  create: all
+  match: "**/*"
+  templates:
+  - posts
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
