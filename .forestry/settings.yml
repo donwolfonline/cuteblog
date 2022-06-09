@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: superadmin
 webhook_url: 
 sections:
-- type: directory
-  path: docsdev
-  label: "\U0001F4BB Doc"
-  create: all
-  match: "**/*"
-  templates:
-  - other-contents
 - type: heading
   label: Open Menu
 - type: directory
@@ -20,6 +13,13 @@ sections:
   match: "**/*"
   templates:
   - blog-posts
+- type: directory
+  path: docsdev
+  label: "\U0001F4BB Doc"
+  create: all
+  match: "**/*"
+  templates:
+  - other-contents
 - type: directory
   path: blogpost
   label: "\U0001F680 Blog"
