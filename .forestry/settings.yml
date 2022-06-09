@@ -5,12 +5,19 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
-  label: Home
+  label: "\U0001F3E0 Home"
 - type: document
-  path: coding
-  label: Coding
-  match: "**/*"
+  path: blog
+  label: "\U0001F680 Blog"
   read_only: true
+- type: document
+  path: doc
+  label: "\U0001F4BB Doc"
+  match: "**/*"
+- type: document
+  path: developer
+  label: "\U0001F468\U0001F3FB‍\U0001F680 Developer"
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
