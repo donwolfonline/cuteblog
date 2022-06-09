@@ -1,6 +1,7 @@
 ---
 label: Posts
 hide_body: true
+display_field: textarea
 fields:
 - name: textarea
   type: textarea
