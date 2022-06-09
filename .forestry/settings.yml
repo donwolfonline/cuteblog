@@ -4,8 +4,13 @@ auto_deploy: false
 admin_path: superadmin
 webhook_url: 
 sections:
-- type: heading
+- type: directory
+  path: contentdir
   label: "\U0001F3E0 Home"
+  create: all
+  match: "**/*"
+- type: heading
+  label: Open Menu
 - type: document
   path: blog
   label: "\U0001F680 Blog"
