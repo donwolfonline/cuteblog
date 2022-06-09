@@ -1,4 +1,30 @@
 ---
 label: Other Contents
 hide_body: false
-fields: []
+fields:
+- name: textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: textarea
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+- name: upload_file
+  type: file
+  config:
+    maxSize: 64
+  label: Upload file
+- name: include_template
+  type: include
+  config: {}
+  template: posts
+  label: Include Template
