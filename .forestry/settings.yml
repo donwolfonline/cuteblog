@@ -40,7 +40,7 @@ use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: _site
-  install_dependencies_command: bundle install --path vendor/bundle && npm install
+  install_dependencies_command: bundle config set --local path 'vendor/bundle
   preview_docker_image: forestryio/ruby:2.6-node12
   mount_path: "/srv"
   working_dir: "/srv"
