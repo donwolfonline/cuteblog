@@ -10,7 +10,7 @@ sections:
   path: contentdir
   label: "\U0001F3E0 Home"
   create: all
-  match: "**/*"
+  match: cuteblog/src/pages/posts
   templates:
   - other-contents
   - posts
@@ -19,7 +19,7 @@ sections:
   path: docsdev
   label: "\U0001F4BB Doc"
   create: all
-  match: "**/*"
+  match: cuteblog/src/pages/posts
   templates:
   - blog-posts
   - posts
@@ -28,7 +28,7 @@ sections:
   path: blogpost
   label: "\U0001F680 Blog"
   create: all
-  match: "**/*"
+  match: cuteblog/src/pages/posts
   templates:
   - blog-posts
   - other-contents
