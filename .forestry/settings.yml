@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: superadmin
-webhook_url: https://github.com/donwolfonline/cuteblog/settings/hooks/362623015
+webhook_url: https://app.forestry.io/git/github/hook
 sections:
 - type: heading
   label: Open Menu
