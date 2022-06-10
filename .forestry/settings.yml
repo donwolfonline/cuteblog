@@ -12,6 +12,8 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - other-contents
+  - posts
   - blog-posts
 - type: directory
   path: docsdev
@@ -19,6 +21,8 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - blog-posts
+  - posts
   - other-contents
 - type: directory
   path: blogpost
@@ -26,6 +30,8 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - blog-posts
+  - other-contents
   - posts
 upload_dir: uploads
 public_path: "/uploads"
