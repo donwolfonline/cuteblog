@@ -28,3 +28,5 @@ fields:
   config: {}
   template: posts
   label: Include Template
+pages:
+- contentdir/Welcoming.md
