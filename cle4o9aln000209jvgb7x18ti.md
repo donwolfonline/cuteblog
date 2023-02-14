@@ -1,7 +1,5 @@
 # Building a Professional Website with Typescript: A Step-by-Step Guide
 
-Image Source: Unsplash
-
 Have you ever wanted to build a professional website but didn’t know where to start? Typescript can help you get there. In this blog post, I will provide a step-by-step guide to setting up a Typescript project, understanding the syntax of Typescript, using the Typescript compiler, and debugging Typescript code. By the end of this post, you will be able to build a professional website with Typescript.
 
 ## What is Typescript?
